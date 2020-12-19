@@ -3,6 +3,8 @@
 记录整个项目中的总结
 
 ![Image text](https://github.com/yuqinyuqinyuqin/query-document-search-engine/blob/main/untitled.png)
+
+
 文档存储在ES里，我们为文档的标题，关键词分别建立正排和倒排索引（用于term匹配）
 
 召回层：分两路召回，一路为基于term匹配。一路为基于语义匹配
